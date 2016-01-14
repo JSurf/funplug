@@ -1,0 +1,4 @@
+cd $W
+tar xf $DIR_DIST/$PV.tar.gz
+rm $PN-$PV
+ln -s $PN-Release-$PV $PN-$PV
